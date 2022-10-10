@@ -1,0 +1,81 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    background-color: #F6EDEF;
+}
+#navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 20px;
+}
+#menu-button{
+    width: 30px;
+    height: 20px;
+}
+ul{
+    list-style-type: none;
+    margin-left: 0;
+    padding-left: 0;
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+}
+ul a{
+    text-decoration: none;
+    color: black;
+}
+.active{
+    color: #E56981;
+    font-weight: bold;
+}
+#contents{
+    display: flex;
+    padding-left: 80px;
+    padding-right: 80px;
+    align-items: center;
+}
+#left-panel{
+    flex-basis: 50%;
+}
+#left-panel h1{
+    font-size: 55px;
+}
+#left-panel p{
+    font-size: 20px;
+}
+#buttons{
+    display: flex;
+    justify-content: space-between;
+    width: 320px;
+    margin-top: 50px;
+}
+#learn-more{
+    background-color: white;
+    text-decoration: none;
+    color: #E56981;
+    font-weight: bold;
+    padding: 12px 34px;
+    border: 1px solid #E56981;
+    border-radius: 5px;
+}
+#sign-up{
+    background-color: #E56981;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 12px 44px;
+    border: 1px solid #E56981;
+    border-radius: 5px;
+}
+#right-panel{
+    padding-top: 20px;
+}
+#illustration{
+    width: 80%;
+    height: auto;
+    padding-left: 40px;
+}
